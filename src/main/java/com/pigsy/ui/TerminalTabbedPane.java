@@ -55,6 +55,7 @@ public class TerminalTabbedPane extends JPanel {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 tabbedPane.addTab("Terminal-" + tabCount, new ConsolePanel());
+                tabbedPane.setSelectedIndex(tabbedPane.getTabCount() - 1);
                 tabCount++;
             }
         });
@@ -74,6 +75,7 @@ public class TerminalTabbedPane extends JPanel {
         });
 
         toolBar.add(newBtn);
+        toolBar.addSeparator();
         toolBar.add(configBtn);
 
         this.add(toolBar, BorderLayout.NORTH);
@@ -100,7 +102,8 @@ public class TerminalTabbedPane extends JPanel {
         popupMenu.add(new AbstractAction("关闭终端") {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                tabbedPane.remove(tabbedPane.getSelectedIndex());
+                if (tabbedPane.getSelectedIndex() > 0)
+                    tabbedPane.remove(tabbedPane.getSelectedIndex());
             }
         });
     }

@@ -1,6 +1,6 @@
 # burp-terminal
 
-Burpsuite插件，给Burpsuite新增一个终端功能
+Burpsuite插件，给Burpsuite增加一个终端功能
 
 # 安装依赖
 

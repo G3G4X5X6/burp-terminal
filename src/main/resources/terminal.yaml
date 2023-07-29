@@ -1,2 +1,12 @@
 path:
   -
+
+
+alias:
+  windows:
+    ls: "ls=dir /b $*"
+  linux:
+    ls: "ls -lah"
+  mac:
+    ls: "ls -lah"
+

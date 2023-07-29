@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73cf08f1-afcc-444b-97cc-3c3238e79024" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/EditorPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/terminal.yaml" afterDir="false" />
+    <list default="true" id="73cf08f1-afcc-444b-97cc-3c3238e79024" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/BurpExtensionTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/BurpExtensionTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsolePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsolePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/BruteForce.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Detection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Enumeration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/FileSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Fingerprint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/General.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Injection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Miscellaneous.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Optimization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Takeover.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Techniques.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/UserDefinedFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Windows.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/TerminalTabbedPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/TerminalTabbedPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/terminal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/terminal.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690634055294</updated>
-      <workItem from="1690634056411" duration="13772000" />
+      <workItem from="1690634056411" duration="17144000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -119,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690641826404</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1690649708392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690649708392</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

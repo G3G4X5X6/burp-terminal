@@ -7,8 +7,6 @@ import com.pigsy.burp.MenuUtil;
 import com.pigsy.ui.TerminalTabbedPane;
 import com.pigsy.utils.WorkspaceUtil;
 
-import java.awt.*;
-
 
 public class BurpExtensionTerminal implements BurpExtension, ExtensionUnloadingHandler {
     private final TerminalTabbedPane terminalTabbedPane = new TerminalTabbedPane();
@@ -31,18 +29,6 @@ public class BurpExtensionTerminal implements BurpExtension, ExtensionUnloadingH
     @Override
     public void extensionUnloaded() {
         terminalTabbedPane.removeAll();
-        destroyComponents(terminalTabbedPane);
         api.logging().logToOutput("Terminal Extension Unloaded!");
-    }
-
-    private void destroyComponents(Container container) {
-        Component[] components = container.getComponents();
-        for (Component component : components) {
-            if (component instanceof Container) {
-                destroyComponents((Container) component);
-            }
-            container.remove(component);
-        }
-        container.validate();
     }
 }
