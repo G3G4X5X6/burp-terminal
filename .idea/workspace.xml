@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73cf08f1-afcc-444b-97cc-3c3238e79024" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jediterm-core-3.20-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jediterm-ui-3.20-SNAPSHOT-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jediterm-ui-3.20-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/BurpExtensionTerminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/TerminalTabbedPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/burp/MenuUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/burp/MyContextMenuItemsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsolePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsoleSettingsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/PtyProcessTtyConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/BruteForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Detection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Enumeration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/FileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Fingerprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/General.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Injection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Miscellaneous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Optimization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Takeover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Techniques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/UserDefinedFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/model/Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/utils/ExecUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/utils/WorkspaceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pigsy/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2TFLo8RML5dtV0dFqbch82WBMbC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/0x02.GitHub/burp-terminal/src/main/java/com/pigsy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\0x02.GitHub\burp-terminal\src\main\java\com\pigsy" />
+      <recent name="E:\0x02.GitHub\burp-terminal\src\main\resources" />
+      <recent name="E:\0x02.GitHub\burp-terminal" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73cf08f1-afcc-444b-97cc-3c3238e79024" name="Changes" comment="" />
+      <created>1690634055294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690634055294</updated>
+      <workItem from="1690634056411" duration="6349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
