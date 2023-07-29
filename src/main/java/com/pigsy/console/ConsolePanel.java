@@ -3,13 +3,13 @@ package com.pigsy.console;
 import com.jediterm.core.Platform;
 import com.jediterm.terminal.TtyConnector;
 import com.jediterm.terminal.ui.JediTermWidget;
+import com.pigsy.utils.WorkspaceUtil;
 import com.pty4j.PtyProcess;
 import com.pty4j.PtyProcessBuilder;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
@@ -35,6 +35,9 @@ public class ConsolePanel extends JPanel {
             Map<String, String> envs = System.getenv();
             String[] command;
             if (Platform.current() == Platform.Windows) {
+                String path = envs.get("Path") + ";" + WorkspaceUtil.getBinPath();
+                envs = new HashMap<>(System.getenv());
+                envs.put("Path", path);
                 command = new String[]{"cmd.exe"};
             } else {
                 command = new String[]{"/bin/bash", "--login"};
