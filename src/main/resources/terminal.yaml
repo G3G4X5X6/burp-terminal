@@ -10,3 +10,4 @@ alias:
   mac:
     ls: "ls -lah"
 
+theme: "to"

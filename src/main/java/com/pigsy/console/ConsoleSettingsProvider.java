@@ -1,11 +1,14 @@
 package com.pigsy.console;
 
 import com.jediterm.core.Platform;
+import com.jediterm.terminal.emulator.ColorPalette;
 import com.jediterm.terminal.ui.settings.DefaultSettingsProvider;
 
 import java.awt.*;
 
 public class ConsoleSettingsProvider extends DefaultSettingsProvider {
+    private final ColorScheme colorScheme = new ColorScheme("Tomorrow");
+
     @Override
     public Font getTerminalFont() {
         String fontName;
@@ -19,5 +22,10 @@ public class ConsoleSettingsProvider extends DefaultSettingsProvider {
         }
 
         return new Font(fontName, Font.PLAIN, (int) this.getTerminalFontSize());
+    }
+
+    @Override
+    public ColorPalette getTerminalColorPalette() {
+        return new DefaultColorPaletteImpl(colorScheme);
     }
 }
