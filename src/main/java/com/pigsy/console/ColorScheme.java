@@ -1,12 +1,11 @@
 package com.pigsy.console;
 
 
-import com.jediterm.core.Color;
 import com.alibaba.fastjson2.JSONArray;
 import com.alibaba.fastjson2.JSONObject;
+import com.jediterm.core.Color;
 import org.apache.commons.io.IOUtils;
 
-import java.awt.*;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 

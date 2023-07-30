@@ -3,7 +3,6 @@ package com.pigsy.console;
 import com.jediterm.core.Platform;
 import com.jediterm.terminal.TtyConnector;
 import com.jediterm.terminal.ui.JediTermWidget;
-import com.pigsy.BurpExtensionTerminal;
 import com.pigsy.TerminalSettings;
 import com.pigsy.utils.WorkspaceUtil;
 import com.pty4j.PtyProcess;
