@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73cf08f1-afcc-444b-97cc-3c3238e79024" name="Changes" comment="update imports">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/TerminalSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/TerminalSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsolePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsolePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/EditorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/EditorPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690634055294</updated>
       <workItem from="1690634056411" duration="18849000" />
-      <workItem from="1690687598087" duration="12107000" />
+      <workItem from="1690687598087" duration="12389000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />

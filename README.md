@@ -1,6 +1,6 @@
 # burp-terminal
 
-给Burpsuite增加一个命令行终端功能。
+Burpsuite插件，给 Burpsuite 增加一个命令行终端功能。
 
 # 安装依赖
 
