@@ -5,7 +5,7 @@ import com.jediterm.terminal.emulator.ColorPalette;
 import org.jetbrains.annotations.NotNull;
 
 public class DefaultColorPaletteImpl extends ColorPalette {
-    private final Color[] myColors;
+    private Color[] myColors;
 
     public DefaultColorPaletteImpl(@NotNull ColorScheme colorScheme) {
         myColors = colorScheme.getColors();

@@ -14,31 +14,43 @@ import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
 
 public class WorkspaceUtil {
 
-
-    public static void showBanner(Logging logging) {
+    public static String getTextFromFile(String fileName) {
         // 使用ClassLoader获取资源文件的输入流
-        InputStream inputStream = BurpExtensionTerminal.class.getClassLoader().getResourceAsStream("banner.txt");
+        InputStream inputStream = BurpExtensionTerminal.class.getClassLoader().getResourceAsStream(fileName);
 
-        StringBuilder banner = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
         if (inputStream != null) {
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
             // 处理输入流，例如读取内容
             try {
                 String line;
                 while ((line = reader.readLine()) != null) {
-                    banner.append(line).append("\n");
+                    stringBuilder.append(line).append("\n");
                 }
             } catch (Exception e) {
-                logging.logToError(e.getMessage());
+                System.out.println(e.getMessage());
             }
         } else {
-            logging.logToError("资源文件未找到");
+            System.out.println("资源文件未找到");
         }
-        logging.logToOutput(banner.toString());
+        return stringBuilder.toString();
+    }
+
+    public static void showBanner(Logging logging) {
+        String banner = getTextFromFile("banner.txt");
+        logging.logToOutput(banner);
         System.out.println(banner);
+    }
+
+    public static LinkedList<String> getThemeList() {
+        String themeText = getTextFromFile("theme/colorschemes.txt");
+
+        return new LinkedList<>(Arrays.asList(themeText.split("\\s+")));
     }
 
     public static void setClipboardString(String text) {
@@ -60,7 +72,10 @@ public class WorkspaceUtil {
 
 
     public static Path getConfigPath() {
-        return Path.of(getWorkSpacePath().toString(), "conf");
+        return Path.of(getWorkSpacePath().toString(), "conf/terminal");
+    }
+    public static Path getConfigFilePath() {
+        return Path.of(getConfigPath().toString(), "terminal.properties");
     }
 
     public static Path getDataPath() {

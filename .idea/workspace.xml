@@ -4,138 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73cf08f1-afcc-444b-97cc-3c3238e79024" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ColorScheme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/DefaultColorPaletteImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/3024 Day.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/3024 Night.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/AdventureTime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Afterglow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/AlienBlood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Argonaut.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Arthur.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/AtelierSulphurpool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Atom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/AtomOneLight.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Batman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Belafonte Day.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Belafonte Night.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/BirdsOfParadise.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Borland.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Broadcast.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Brogrammer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/CLRS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Chalkboard.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Ciapre.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Cobalt Neon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Cobalt2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/CrayonPonyFish.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Darkside.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Default.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/DimmedMonokai.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/DotGov.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Dracula.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Duotone Dark.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Earthsong.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Elemental.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Espresso.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/FirefoxDev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Firewatch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Flat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Flatland.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/ForestBlue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/FrontEndDelight.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/FunForrest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Galaxy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Github.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Glacier.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Grape.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Grass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Gruvbox Dark.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Hardcore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Harper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Highway.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Hipster Green.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Homebrew.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Hybrid.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/IC_Green_PPL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/IC_Orange_PPL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Jackie Brown.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Japanesque.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Jellybeans.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/JetBrains Darcula.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Kibble.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Later This Evening.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Lavandula.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Man Page.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Material.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Mathias.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Medallion.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Misterioso.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Monokai Soda.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/N0tch2k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Neopolitan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Neutron.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Novel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Obsidian.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Ocean.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Ollie.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Pandora.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Parasio Dark.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/PaulMillr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/PencilLight.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Piatto Light.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Pnevma.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Pro.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Red Alert.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Red Sands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Rippedcasts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Royal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Ryuuko.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/SeaShells.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Seti.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Slate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Smyck.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/SoftServer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Solarized Darcula.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Solarized Dark - Patched.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Solarized Dark Higher Contrast.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Solarized Dark.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Solarized Light.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/SpaceGray Eighties Dull.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/SpaceGray Eighties.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/SpaceGray.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Spacedust.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Spiderman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Spring.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Square.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Sundried.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Symfonic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Teerb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Terminal Basic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Thayer Bright.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/The Hulk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Tomorrow Night Blue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Tomorrow Night Bright.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Tomorrow Night Eighties.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Tomorrow Night.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Tomorrow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/ToyChest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Twilight.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/WarmNeon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Wez.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/WildCherry.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Wombat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Wryan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/Zenburn.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/ayu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/ayu_light.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/colorschemes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/theme/idleToes.json" afterDir="false" />
+    <list default="true" id="73cf08f1-afcc-444b-97cc-3c3238e79024" name="Changes" comment="add theme">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/TerminalSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsolePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsolePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsoleSettingsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsoleSettingsProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/terminal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/terminal.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/console/DefaultColorPaletteImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/DefaultColorPaletteImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/EditorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/EditorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/TerminalTabbedPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/TerminalTabbedPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/utils/WorkspaceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/utils/WorkspaceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/terminal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/terminal.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,9 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2TFLo8RML5dtV0dFqbch82WBMbC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -166,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/0x02.GitHub/burp-terminal/src/main/java/com/pigsy/console",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/0x02.GitHub/burp-terminal/src/main/java/com/pigsy/console&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\0x02.GitHub\burp-terminal\src\main\java\com\pigsy\console" />
@@ -190,13 +68,13 @@
       <recent name="E:\0x02.GitHub\burp-terminal" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Remote JVM Debug.remote-debug">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pigsy.App" />
       <module name="burp-terminal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pigsy.*" />
+          <option name="PATTERN" value="com.pigsy.BurpExtensionTerminal" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,6 +82,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="remote-debug" type="Remote">
+      <module name="burp-terminal" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5555" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5555" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Remote JVM Debug.remote-debug" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
@@ -218,7 +114,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690634055294</updated>
-      <workItem from="1690634056411" duration="18607000" />
+      <workItem from="1690634056411" duration="18849000" />
+      <workItem from="1690687598087" duration="9122000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -244,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690655242932</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add theme">
+      <option name="closed" value="true" />
+      <created>1690656597688</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690656597688</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="add theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add theme" />
   </component>
 </project>

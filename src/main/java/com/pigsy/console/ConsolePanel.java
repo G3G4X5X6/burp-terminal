@@ -3,6 +3,8 @@ package com.pigsy.console;
 import com.jediterm.core.Platform;
 import com.jediterm.terminal.TtyConnector;
 import com.jediterm.terminal.ui.JediTermWidget;
+import com.pigsy.BurpExtensionTerminal;
+import com.pigsy.TerminalSettings;
 import com.pigsy.utils.WorkspaceUtil;
 import com.pty4j.PtyProcess;
 import com.pty4j.PtyProcessBuilder;
@@ -10,11 +12,13 @@ import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
 public class ConsolePanel extends JPanel {
+    private PtyProcessTtyConnector ttyConnector;
 
     public ConsolePanel() {
         this.setLayout(new BorderLayout());
@@ -23,10 +27,20 @@ public class ConsolePanel extends JPanel {
         this.add(widget, BorderLayout.CENTER);
     }
 
+    public void write(String command) {
+        try {
+            ttyConnector.write(command);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
     private @NotNull JediTermWidget createTerminalWidget() {
-        JediTermWidget widget = new JediTermWidget(80, 24, new ConsoleSettingsProvider());
+        JediTermWidget widget = new JediTermWidget(80, 24, new ConsoleSettingsProvider(TerminalSettings.getTheme()));
         widget.setTtyConnector(createTtyConnector());
         widget.start();
+
+        ttyConnector = (PtyProcessTtyConnector) widget.getTtyConnector();
         return widget;
     }
 

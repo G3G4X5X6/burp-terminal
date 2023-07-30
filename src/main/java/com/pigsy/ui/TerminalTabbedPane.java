@@ -5,9 +5,7 @@ import com.pigsy.utils.WorkspaceUtil;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+import java.awt.event.*;
 
 public class TerminalTabbedPane extends JPanel {
 

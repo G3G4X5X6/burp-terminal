@@ -7,7 +7,11 @@ import com.jediterm.terminal.ui.settings.DefaultSettingsProvider;
 import java.awt.*;
 
 public class ConsoleSettingsProvider extends DefaultSettingsProvider {
-    private final ColorScheme colorScheme = new ColorScheme("Tomorrow");
+    private final ColorScheme colorScheme;
+
+    public ConsoleSettingsProvider(String theme){
+        colorScheme = new ColorScheme(theme);
+    }
 
     @Override
     public Font getTerminalFont() {
