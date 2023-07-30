@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73cf08f1-afcc-444b-97cc-3c3238e79024" name="Changes" comment="update imports">
+      <change afterPath="$PROJECT_DIR$/doc/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690634055294</updated>
       <workItem from="1690634056411" duration="18849000" />
-      <workItem from="1690687598087" duration="12389000" />
+      <workItem from="1690687598087" duration="12628000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
