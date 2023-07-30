@@ -12,11 +12,22 @@ import static com.pigsy.utils.WorkspaceUtil.getConfigFilePath;
 public class TerminalSettings {
     public static Properties properties = loadProperties();
 
-    public static String getTheme() {
-        String theme = properties.getProperty("theme");
+    public static String getTerminalTheme() {
+        String theme = properties.getProperty("terminal.theme");
         if (theme == null || theme.isBlank())
             theme = "Tomorrow";
         return theme;
+    }
+
+    public static String getTerminalFont() {
+        String font = properties.getProperty("terminal.font");
+        if (font == null || font.isBlank())
+            font = "新宋体";
+        return font;
+    }
+
+    public static int getTerminalFontSize() {
+        return Integer.parseInt(properties.getProperty("terminal.font.size"));
     }
 
     private static Properties loadProperties() {
@@ -56,32 +67,13 @@ public class TerminalSettings {
     }
 
     public static void saveText(String text) {
-
+        System.out.println(text);
         try {
-            Files.writeString(getConfigFilePath(), text);
+            Files.writeString(getConfigFilePath(), text, StandardCharsets.UTF_8);
             JOptionPane.showMessageDialog(null, "保存配置成功!", "信息", JOptionPane.INFORMATION_MESSAGE);
         } catch (IOException e) {
             JOptionPane.showMessageDialog(null, "保存配置失败!", "错误", JOptionPane.ERROR_MESSAGE);
 
-        }
-    }
-
-    public static void saveSettingsProperties() {
-        try {
-            StringBuilder settingsText = new StringBuilder();
-            BufferedReader reader = new BufferedReader(new FileReader(getConfigFilePath().toFile()));
-            String line = "";
-            while ((line = reader.readLine()) != null) {
-                if (!line.startsWith("#") && !line.isBlank()) {
-                    String key = line.strip().split("=")[0];
-                    line = key + "=" + (properties.getProperty(key) != null ? properties.getProperty(key) : line.strip().split("=")[1]);
-                }
-                settingsText.append(line).append("\n");
-            }
-            Files.writeString(getConfigFilePath(), settingsText.toString());
-            JOptionPane.showMessageDialog(null, "保存配置成功!", "信息", JOptionPane.INFORMATION_MESSAGE);
-        } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "保存配置失败!", "错误", JOptionPane.ERROR_MESSAGE);
         }
     }
 }

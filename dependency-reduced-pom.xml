@@ -4,7 +4,7 @@
   <groupId>com.pigsy</groupId>
   <artifactId>burp-terminal</artifactId>
   <name>burp-terminal</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <url>http://maven.apache.org</url>
   <build>
     <plugins>

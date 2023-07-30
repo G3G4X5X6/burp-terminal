@@ -35,7 +35,7 @@ public class ConsolePanel extends JPanel {
     }
 
     private @NotNull JediTermWidget createTerminalWidget() {
-        JediTermWidget widget = new JediTermWidget(80, 24, new ConsoleSettingsProvider(TerminalSettings.getTheme()));
+        JediTermWidget widget = new JediTermWidget(80, 24, new ConsoleSettingsProvider(TerminalSettings.getTerminalTheme()));
         widget.setTtyConnector(createTtyConnector());
         widget.start();
 

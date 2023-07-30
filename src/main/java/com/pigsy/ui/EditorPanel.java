@@ -9,6 +9,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 
 public class EditorPanel extends JPanel {
     private final JToolBar toolBar;
@@ -22,6 +23,7 @@ public class EditorPanel extends JPanel {
         initToolbar();
 
         rawEditor = BurpExtensionTerminal.api.userInterface().createRawEditor();
+        rawEditor.uiComponent().setFont(new Font("新宋体", Font.PLAIN, 14));
         rawEditor.setContents(ByteArray.byteArray(TerminalSettings.getConfigText().getBytes(StandardCharsets.UTF_8)));
 
         this.add(toolBar, BorderLayout.NORTH);
@@ -34,7 +36,7 @@ public class EditorPanel extends JPanel {
         saveBtn.addActionListener(new AbstractAction("保存") {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                TerminalSettings.saveText(String.valueOf(rawEditor.getContents()));
+                TerminalSettings.saveText(new String(rawEditor.getContents().getBytes(), StandardCharsets.UTF_8));
             }
         });
 

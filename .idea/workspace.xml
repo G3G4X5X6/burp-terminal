@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73cf08f1-afcc-444b-97cc-3c3238e79024" name="Changes" comment="add theme">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/TerminalSettings.java" afterDir="false" />
+    <list default="true" id="73cf08f1-afcc-444b-97cc-3c3238e79024" name="Changes" comment="update imports">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/TerminalSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/TerminalSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsolePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsolePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsoleSettingsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/ConsoleSettingsProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/console/DefaultColorPaletteImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/console/DefaultColorPaletteImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/EditorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/EditorPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/TerminalTabbedPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/ui/TerminalTabbedPane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pigsy/utils/WorkspaceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pigsy/utils/WorkspaceUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/terminal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/terminal.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690634055294</updated>
       <workItem from="1690634056411" duration="18849000" />
-      <workItem from="1690687598087" duration="9122000" />
+      <workItem from="1690687598087" duration="12107000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -149,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690656597688</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add settings">
+      <option name="closed" value="true" />
+      <created>1690698997697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690698997697</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update imports">
+      <option name="closed" value="true" />
+      <created>1690699034957</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690699034957</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +172,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="update" />
     <MESSAGE value="add theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add theme" />
+    <MESSAGE value="add settings" />
+    <MESSAGE value="update imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="update imports" />
   </component>
 </project>
